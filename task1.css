@@ -1,0 +1,58 @@
+
+
+    body {
+      margin: 10;
+      padding: 10;
+      background: #c1baba;
+      font-family:sans-serif, serif;
+    }
+
+    .container {
+      width: 800px;
+      margin: 50px ;
+      background: #a1a1b0;
+      padding: 50px;
+    }
+
+    
+    .form-box {
+      background: #269a5c;
+      border-radius: 20px;
+      padding: 25px 40px 35px;
+    }
+.title {
+      text-align: center;
+      font-size: 60px;
+      font-style:italic;
+      font-weight: bold;
+      color: #000;
+    
+    }
+
+    .heading {
+      font-size: 55px;
+      font-style: italic;
+      margin-bottom: 40px;
+      color: #000;
+    }
+    .form-group {  
+      margin-bottom: 25px;
+    }
+
+    
+
+    .form-group label {
+      width: 240px;
+      font-size: 30px;
+      text-align: center;
+      margin-right: 20px;
+      color: #000;
+
+     
+    }
+
+    
+
+    .form-group select {
+      width: 80px;
+    }
