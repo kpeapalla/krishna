@@ -1,9 +1,8 @@
-body{
-    font-family: 'Times New Roman', Times, serif;
+.main{
+    
     background-color: white;
-    color:blueviolet;
+    font-family: 'Times New Roman', Times, serif;
 }
-
     
 .logo{
      background-color: white(192, 209, 209);
@@ -40,39 +39,40 @@ body{
     gap: 32px;
 }
 
-.login-btn {
-    border: radius 500px;
 
-}
 .bt{
     background-color: rgb(217, 0, 255);
     color: white;
+    /* height: 50px;
+    width: 50px; */
     border-radius: 30px;
     border-style: none;
 }
 
 .content2{
+    padding-left: 50px;
     display:flex ;
     justify-content: space-between;
 }
 .kri{
     display: flex;
     justify-content: space-between;
+    gap: 50px;
     
 }
 .kri img{
     display:flex;
-
     height: 200px;
     width:200px;
+     /* padding-left: 20px; */
 }
 body{
     background: linear-gradient(to right, #00f5a0, #00d9f5);
-    margin: 0;
+    margin: 10px 10px 10px 10px;
     padding: 20px;
-}
-
-.main{
-    background-color: white;
    
 }
+.cha{
+    padding-right: 200px;
+}
+
