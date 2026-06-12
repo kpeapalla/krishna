@@ -1,0 +1,156 @@
+body {
+
+    background: rgb(252, 247, 247);
+}
+
+.top {
+    height:50px;
+    background: #6e6d6d;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 20px;
+    font-size: 15px;
+    align-items: center;
+    gap: 12px;
+}
+.skip{
+    padding-left: 500px;
+    font-size: 15px;
+}
+.font-box{
+    padding-left: 90px;
+    display: flex;
+    gap: 6px;
+}
+.btn,
+.dark,
+.light{
+
+width:30px;
+height:28px;
+display:flex;
+align-items:center;
+justify-content:center;
+border:1px solid #e5a53a;
+font-size:16px;
+}
+.dark{
+
+background:#222;
+border:none;
+
+}
+
+.light{
+
+background:white;
+color:#333;
+border:none;
+
+}
+.icon {
+    height: 30px;
+    display: flex;
+    gap: 10px;
+}
+
+
+.search {
+    display: flex;
+    height: 35px;
+}
+
+.search input {
+    width: 160px;
+    background: #555;
+    border: 1px solid orange;
+    color: white;
+    padding: 5px;
+    font-size: 15px;
+
+}
+
+.search input::placeholder {
+
+    color: white;
+}
+
+.search button {
+    width: 35px;
+    border: none;
+    background: #555;
+    color: white;
+    font-size: 18px;
+
+} 
+.language{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 20px;
+}
+
+.language select{
+    display: flex;
+     width:120px;
+    height:30px;
+   font-size:16px;
+    padding:2px;
+
+}
+.head {
+    height: 100px;
+    background: #ff8c00;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    /* margin-top: 10px; */
+}
+
+.logo img {
+    
+    padding-top: 80px;
+    height: 50px;
+    width: 100px;
+}
+
+.nav {
+    font-weight: bold;
+}
+
+.logo h1 {
+    color: white;
+}
+
+.banner {
+    padding-top: 450px;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+}
+
+.banner img {
+
+    width: 2000px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.cap {
+    position: absolute;
+    bottom: 30px;
+    right: 40px;
+    color: rgb(238, 249, 238);
+    font-size: 20px;
+    width: 300px;
+    font-weight: bold;
+
+}
+
+.chaitu {
+    padding: 350px;
+    text-align: center;
+
+}
