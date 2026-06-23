@@ -1,157 +1,387 @@
-body{
-    font-family:Arial,sans-serif;
-    color:#333;
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
 }
-.krishna{
-    background:url("https://bridge155.qodeinteractive.com/wp-content/uploads/2018/02/home-slider-1.jpg") center/cover;
-    position:relative;
-        padding:30px 80px;
-        height: 650px;
-}
-.krishna::before{
-    /* content:""; */
-    position:absolute;
-    inset:0;
-    background:rgba(210,195,183,.55);
-}
-.navbar,
-.content{
+
+.krishna {
+    background: url("https://bridge155.qodeinteractive.com/wp-content/uploads/2018/02/home-slider-1.jpg") center/cover;
     position: relative;
-    
+    padding: 30px 80px;
+    height: 650px;
 }
-.navbar{
+
+.krishna::before {
+    /* content:""; */
+    position: absolute;
+    inset: 0;
+    background: rgba(210, 195, 183, .55);
+}
+
+.navbar,
+.content {
+    position: relative;
+
+}
+
+.navbar {
     display: flex;
-    justify-content:space-between ;
+    justify-content: space-between;
     align-items: center;
 }
-.logo a{
-    text-decoration:none;
-    color:#222;
-    font-size:40px;
-    font-family:sans-serif;
+
+.logo a {
+    text-decoration: none;
+    color: #222;
+    font-size: 40px;
+    font-family: sans-serif;
 }
-.menu{
+
+.menu {
     display: flex;
     gap: 35px;
 }
-.icons{
-     width:230px;
-    height:25px;
-    background:#d7c9bc;
-    display:flex;
-    align-items:center;
-    padding:0 20px;
+
+.icons {
+    width: 230px;
+    height: 25px;
+    background: #d7c9bc;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
     margin-bottom: 10px;
 }
-.icons a{
+
+.icons a {
     text-decoration: none;
-   margin-right: 25px;
-}
-.icons img{
-     width:22px;
-    height:22px;
-    object-fit:contain;
-    /* display:block; */
-}
-.cart-icon{
-    position:relative;
-    margin-left:20px;
+    margin-right: 25px;
 }
 
-.cart-icon img{
-    width:22px;
-    height:22px;
+.icons img {
+    width: 22px;
+    height: 22px;
+    object-fit: contain;
+    /* display:block; */
 }
-.menu a{
-    text-decoration:none;
-    color:#333;
-    font-size:13px;
-    letter-spacing:2px;
-    font-weight:600;
+
+.cart-icon {
+    position: relative;
+    margin-left: 20px;
 }
-.menu a:hover{
-    color:#a46c42;
+
+.cart-icon img {
+    width: 22px;
+    height: 22px;
 }
-.content{
+
+.menu a {
+    text-decoration: none;
+    color: #333;
+    font-size: 13px;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+
+.menu a:hover {
+    color: #a46c42;
+}
+
+.content {
     margin-top: 100px;
 }
-.title{
+
+.title {
     font-size: 78px;
     line-height: 1.2;
     color: #fff;
-     font-family: serif;
+    font-family: serif;
 }
-.text{
+
+.text {
     margin-top: 20px;
     color: white;
     letter-spacing: 2px;
 }
-.chaitu{
+
+.chaitu {
     display: flex;
     justify-content: center;
     gap: 50px;
     padding: 80px;
-    background:white;
+    background: white;
     text-align: center;
 }
-.aa{
-    
+
+.aa {
+
     width: 240px;
     justify-content: center;
 }
-.icon img{
+
+.icon img {
     width: 90px;
     height: 90px;
     border-radius: 50%;
     background: #e1ddda;
     margin: auto;
-   
-}
-.icon h2{
-     margin-top:20px;
-    font-size:24px;
-    font-family:serif;
-}
-.icon p{
-      margin-top:12px;
-    color:#777;
-}
-.gallery{
-    width:100%;
-    padding:40px 20px;
-    background:#f5f3ef;
-}
-.gti{
-  text-align:center;
-    font-size:48px;
-    font-family:serif;
-}
-.gte{
-     text-align:center;
-    color:#665d5d;
-    margin:20px 50px;
-}
-.gg{
-     width:95%;
-    margin:35px auto;
-    display:grid;
-    grid-template-columns: 2fr 1fr 1fr;
-    grid-template-rows:320px 320px 170px;
-    gap:18px;
-}
-.gg img{
-     width:100%;
-    height:100%;
-    object-fit:cover;
-    transition:.4s;
-}
-.gg img:hover{
-     transform:scale(1.05);
+
 }
 
-.gbig{
-    grid-row:span 2;
+.icon h2 {
+    margin-top: 20px;
+    font-size: 24px;
+    font-family: serif;
 }
-.gwide{
+
+.icon p {
+    margin-top: 12px;
+    color: #777;
+}
+
+.gallery {
+    width: 100%;
+    padding: 40px 20px;
+    background: #f5f3ef;
+}
+
+.gti {
+    text-align: center;
+    font-size: 48px;
+    font-family: serif;
+}
+
+.gte {
+    text-align: center;
+    color: #665d5d;
+    margin: 20px 50px;
+}
+
+.gg {
+    width: 95%;
+    margin: 35px auto;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: 320px 320px 170px;
+    gap: 18px;
+}
+
+.gg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: .4s;
+}
+
+.gg img:hover {
+    transform: scale(1.05);
+}
+
+.gbig {
+    grid-row: span 2;
+}
+
+.gwide {
     grid-column: span 2;
+}
+
+.news {
+
+    height: 250px;
+    background: url("https://bridge155.qodeinteractive.com/wp-content/uploads/2018/02/home-parallax-1-1.jpg");
+    background-size: cover;
+    text-align: center;
+    padding: 70px;
+    color: white;
+
+}
+
+
+.input {
+
+    margin: 25px auto;
+    display: flex;
+    width: 400px;
+
+}
+
+
+input {
+
+    width: 70%;
+    padding: 15px;
+    border: none;
+
+}
+
+
+button {
+
+    background: white;
+    border: none;
+    padding: 15px;
+}
+
+
+.products {
+
+    padding: 70px 80px;
+    text-align: center;
+
+}
+
+
+
+.products h1 {
+
+    font-size: 55px;
+    font-weight: 400;
+}
+
+
+
+.subtitle {
+
+    margin-top: 35px;
+    color: #777;
+    font-size: 18px;
+
+}
+
+
+
+
+.pc {
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+
+}
+
+
+
+
+.aa1 {
+
+    width: 260px;
+    position: relative;
+
+}
+
+
+
+.aa1 img {
+
+    width: 100%;
+    height: 430px;
+    object-fit: cover;
+
+}
+
+
+
+.aa1 h2 {
+
+    font-size: 25px;
+    font-weight: 400;
+    margin-top: 25px;
+
+}
+
+
+
+
+.price {
+
+    margin-top: 12px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+
+    font-size: 18px;
+
+}
+
+
+
+del {
+
+    color: #b27654;
+
+}
+
+
+
+.price span {
+    color: #999;
+    font-weight: bold;
+
+}
+
+.sale {
+
+    position: absolute;
+    top: -30px;
+    left: 10px;
+    width: 65px;
+    height: 65px;
+    background: #5193ae;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    letter-spacing: 3px;
+    font-size: 13px;
+
+}
+
+.footer {
+
+    background: #f8f2eb;
+    padding: 80px 120px 30px;
+    color: #66717b;
+
+}
+
+.fb {
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.ab {
+
+    width: 22%;
+
+}
+
+
+.ab h3 {
+
+    color: #111;
+    font-size: 14px;
+
+    letter-spacing: 6px;
+    margin-bottom: 35px;
+
+}
+
+
+.ab p {
+
+    font-size: 18px;
+    margin: 18px 0;
+
+}
+
+.fb {
+    margin-top: 80px;
+    padding-top: 35px;
+    border-top: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
 }
